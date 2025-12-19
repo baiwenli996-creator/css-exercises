@@ -2,3 +2,16 @@
 background-color: rgb(248, 133, 152);
 font-family: Verdana, Dejavu, sans-serif;
 }
+#id2 {
+    color: blue;
+    font-size: 36px;
+}
+.class3 {
+    
+    font-size: 24px;
+}
+#id4 {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
