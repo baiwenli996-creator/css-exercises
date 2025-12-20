@@ -1,6 +1,9 @@
-.header  {
+.header {
+  display: flex;
   font-family: monospace;
   background: papayawhip;
+  padding: 4px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -12,8 +15,22 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+  list-style-type: none; /* this removes the dots on the list items*/
+  display: flex;
+
+  align-items: center; /* vertical */
+
+  gap: 4px;
+  padding: 0; /* FIX */
+  margin: 0; /* FIX */
+}
+.left-links {
+  display: flex;
+  /*justify-content: flex-start;*/ /*unnessary, because the default value is flex-start*/
+}
+.right-links {
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
